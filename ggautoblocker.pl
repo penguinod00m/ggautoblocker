@@ -15,10 +15,11 @@ my $access_secret = "";
 my @idiots = ( "CHSommers", "AdamBaldwin", "Nero", "FartToContinue", "PlayDangerously", "roguestargamez" );
 #my @idiots = ( "FartToContinue", "PlayDangerously" );
 my @whitelist = ( "gamergatetxt" );
-
+my @sheeple_names = ( "penguinod00m" );
+my @sheeple_ids = ( "2812992176" );
 my $debug = 1;
 
-my ( @follower_ids, @myfollower_ids, @shared_ids, @shared_names, @sheeple_ids, @sheeple_names );
+my ( @follower_ids, @myfollower_ids, @shared_ids, @shared_names );
 
 
 # set up our twitter connection
